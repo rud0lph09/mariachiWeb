@@ -715,7 +715,7 @@ Sign up form
   .sign-up .signup-form .form-input-group i.fa-envelope {
     font-size: 14px;
     position: absolute;
-    top: 50%;
+    top: 24px;
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
@@ -734,6 +734,19 @@ Sign up form
     color: #BCC1C3; }
   .sign-up .signup-form .form-input-group input:-ms-input-placeholder {
     color: #BCC1C3; }
+  #messageForMariachi {
+    outline: none;
+    display: block;
+    height: 165px;
+  }
+  .messageBox {
+    padding-left: 68px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-color: #fff;
+    height: 100%;
+    width: 100%;
+  }
 
 /* ==========================================================================
 To top

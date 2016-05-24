@@ -101,3 +101,13 @@ $(document).ready(function() {
 	});
 
 });
+
+$('#sender').click(function() {
+
+    var text = $('#messageBox').val();
+		console.log(text);
+		// location.href = 'mailto:' + 'hello@mariachi.io' + '?subject=' + 'Contact' + '&body=' +   text;
+		window.location.href = 'mailto:' + 'hello@mariachi.io' + '?subject=' + 'Contact' + '&body=' +   text;
+		return false;
+    //send to server and process response
+});

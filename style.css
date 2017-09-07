@@ -1,0 +1,33 @@
+
+h1 {
+  font-size: 60px;
+}
+#kick {
+  font-weight: bold;
+  color: white;
+}
+.subtitle {
+  color: #45D9E1;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.main-con{
+  background: url('imgs/Background_image.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.padd{
+  height: 80px;
+}
+.message-container {
+  padding-left: 50px;
+  color: white;
+}
+
+.client-container {
+  height: 200px;
+  width: 200px;
+}

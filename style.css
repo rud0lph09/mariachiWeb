@@ -2,6 +2,16 @@
 h1 {
   font-size: 60px;
 }
+
+footer {
+  height: 25px;
+  padding-top: 60px;
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
 #kick {
   font-weight: bold;
   color: white;
@@ -30,4 +40,12 @@ h1 {
 .client-container {
   height: 200px;
   width: 200px;
+}
+.footer-row {
+  background-color: #101F2D;
+}
+.footer-col {
+  color: white;
+  text-align: right;
+  padding-right: 60px;
 }

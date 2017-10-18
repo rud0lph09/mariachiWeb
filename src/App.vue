@@ -68,7 +68,7 @@ export default {
 }
 
 body {
-    background-image: url("dist/Background_image.jpg");
+    background-image: url("../dist/Background_image.jpg");
 }
 
 h1, h2 {

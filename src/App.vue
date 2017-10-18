@@ -3,7 +3,7 @@
     <div class="container text_mariachi">
       <div class="row">
         <div class="col-lg-6 col-12">
-          <img id="logo_mariachi" src="./assets/logo_mariachi.png" alt="logo">
+          <img id="logo_mariachi" src="dist/logo_mariachi.png" alt="logo">
           <h1>Nos estamos renovando</h1>
           <h2>Llevaremos tus ideas al siguiente nivel,</h2>
           <p>utilizando las tecnologías de desarrollo más novedosas podremos diseñarte una solucion adecuada.</p>
@@ -14,13 +14,13 @@
               <h3>Nuestros clientes</h3>
               <div class="row">
                 <div class="col-lg-4">
-                  <img src="./assets/allianz_logo.png" alt="logo">
+                  <img src="dist/allianz_logo.png" alt="logo">
                 </div>
                 <div class="col-lg-4">
-                  <img src="./assets/gsalinas_logo.png" alt="logo">
+                  <img src="dist/gsalinas_logo.png" alt="logo">
                 </div>
                 <div class="col-lg-4">
-                  <img src="./assets/traveo_logo.png" alt="logo">
+                  <img src="dist/traveo_logo.png" alt="logo">
                 </div>
               </div>
             </div>
@@ -29,7 +29,7 @@
               <div class="row">
                 <div class="col-lg-4"></div>
                 <div class="col-lg-4">
-                  <img src="./assets/oracle_logo.png" alt="logo">
+                  <img src="dist/oracle_logo.png" alt="logo">
                 </div>
                 <div class="col-lg-4"></div>
               </div>
@@ -68,7 +68,7 @@ export default {
 }
 
 body {
-    background-image: url("assets/Background_image.jpg");
+    background-image: url("dist/Background_image.jpg");
 }
 
 h1, h2 {

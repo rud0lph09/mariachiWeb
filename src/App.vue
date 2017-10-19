@@ -22,11 +22,11 @@
           .col-sm-12
             h3 Partnership
             .row
-              .col-lg-4.col-12
-              .col-lg-4.col-12
+              .col-lg-3.col-12
+              .col-lg-6.col-12
                 img(src='dist/oraclep_logo.png', alt='logo')
                 //- img(src='dist/oracle_logo.png', alt='logo')
-              .col-lg-4.col-12
+              .col-lg-3.col-12
   footer
     h6#derechos © Derechos reservados 2017
     h6#correo hola@mariachi.io

@@ -1,48 +1,35 @@
-<template>
-  <div id="app">
-    <div class="container text_mariachi">
-      <div class="row">
-        <div class="col-lg-6 col-12">
-          <img id="logo_mariachi" src="dist/logo_mariachi.png" alt="logo">
-          <h1>Nos estamos renovando</h1>
-          <h2>Llevaremos tus ideas al siguiente nivel,</h2>
-          <p>utilizando las tecnologías de desarrollo más novedosas podremos diseñarte una solucion adecuada.</p>
-        </div>
-        <div class="col-lg-6 col-12">
-          <div class="row logos">
-            <div class="col-sm-12">
-              <h3>Nuestros clientes</h3>
-              <div class="row">
-                <div class="col-lg-4">
-                  <img src="dist/allianz_logo.png" alt="logo">
-                </div>
-                <div class="col-lg-4">
-                  <img src="dist/gsalinas_logo.png" alt="logo">
-                </div>
-                <div class="col-lg-4">
-                  <img src="dist/traveo_logo.png" alt="logo">
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-12">
-              <h3>Golden Partners</h3>
-              <div class="row">
-                <div class="col-lg-4"></div>
-                <div class="col-lg-4">
-                  <img src="dist/oracle_logo.png" alt="logo">
-                </div>
-                <div class="col-lg-4"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <footer>
-      <h6 id="derechos">© Derechos reservados 2017</h6>
-      <h6 id="correo">hola@mariachi.io</h6>
-    </footer>
-  </div>
+<template lang="pug">
+#app
+  .container.text_mariachi
+    .row
+      .col-lg-6.col-12
+        img#logo_mariachi(src='dist/logo_mariachi.png', alt='logo')
+        h1 Nos estamos renovando
+        h2 Llevaremos tus ideas al siguiente nivel,
+        p
+          | utilizando las tecnologías de desarrollo más novedosas podremos diseñarte una solucion adecuada.
+      .col-lg-6.col-12
+        .row.logos
+          .col-sm-12
+            h3 Nuestros clientes
+            .row
+              .col-lg-4.col-12
+                img(src='dist/allianz_logo.png', alt='logo')
+              .col-lg-4.col-12
+                img(src='dist/gsalinas_logo.png', alt='logo')
+              .col-lg-4.col-12
+                img(src='dist/traveo_logo.png', alt='logo')
+          .col-sm-12
+            h3 Partnership
+            .row
+              .col-lg-4.col-12
+              .col-lg-4.col-12
+                img(src='dist/oraclep_logo.png', alt='logo')
+                //- img(src='dist/oracle_logo.png', alt='logo')
+              .col-lg-4.col-12
+  footer
+    h6#derechos © Derechos reservados 2017
+    h6#correo hola@mariachi.io
 </template>
 
 <script>
@@ -118,7 +105,7 @@ a {
   font-size: 26px;
 }
 .logos img {
-  width: 100%;
+  max-width: 100%;
   display: block;
   margin: auto;
 }

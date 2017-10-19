@@ -24,7 +24,8 @@
             .row
               .col-lg-3.col-12
               .col-lg-6.col-12
-                img(src='dist/oraclep_logo.png', alt='logo')
+                a(title='Oracle Gold Partner', href='https://solutions.oracle.com/scwar/scr/Partner/SCPP-ZIKLEPOD.html')
+                  img(src='dist/oraclep_logo.png', alt='logo')
                 //- img(src='dist/oracle_logo.png', alt='logo')
               .col-lg-3.col-12
   footer

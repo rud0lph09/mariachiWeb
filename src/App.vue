@@ -25,7 +25,7 @@
               .col-lg-3.col-12
               .col-lg-6.col-12
                 a(title='Oracle Gold Partner', href='https://solutions.oracle.com/scwar/scr/Partner/SCPP-ZIKLEPOD.html')
-                  img(src='dist/oraclep_logo.png', alt='logo')
+                  img(id='oracle_logo', src='dist/oraclep_logo.png', alt='logo')
                 //- img(src='dist/oracle_logo.png', alt='logo')
               .col-lg-3.col-12
   footer
@@ -131,5 +131,8 @@ footer h6 {
 #correo {
   float: right;
   margin-right: 10px;
+}
+#oracle_logo {
+  margin-bottom: 60px;
 }
 </style>

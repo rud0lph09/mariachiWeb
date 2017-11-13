@@ -56,7 +56,7 @@ export default {
 }
 
 body {
-    background-image: url("https://joseangelchepo.github.io/mariachi-page/dist/Background_image.png");
+    background-image: url("../dist/Background_image.png");
 }
 
 h1, h2 {

@@ -7,7 +7,7 @@
         h1 Nos estamos renovando
         h2 Llevaremos tus ideas al siguiente nivel,
         p
-          | utilizando las tecnologías de desarrollo más novedosas podremos diseñarte una solucion adecuada.
+          | Utilizando las tecnologías de desarrollo más novedosas podremos diseñarte una solucion adecuada.
       .col-lg-6.col-12
         .row.logos
           .col-sm-12
@@ -55,8 +55,15 @@ export default {
   margin-top: 60px;
 }
 
+html {
+    height: 100%
+}
+
 body {
-    background-image: url("../dist/Background_image.png");
+    /*background-image: url("../dist/Background_image.png");*/
+    background: url(../dist/Background_image.png) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 h1, h2 {
